@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assigment</title>
+</head>
+<body>
+  
+  <script>
+var a = prompt("Molim vas unesite vrednost broja A:");
+var operacija = prompt("Molim vas unesite zeljenu racunsku operaciju(+, -, *, /)");
+var b = prompt("Molim vas unesite vrednost broja B:");
+var r;
+
+a = parseFloat(a);
+b = parseFloat(b);
+
+switch (operacija) {
+  case "+":
+    r = a + b;
+    alert("Rezultat je:" + r);
+    break;
+    case "-":
+    r = a - b;
+    alert("Rezultat je:" + r);
+    break;
+    case "*":
+    r = a * b;
+    alert("Rezultat je:" + r);
+    break;
+    case "/":
+    r = a / b;
+    alert("Rezultat je: " + r);
+    break;
+    default:
+      alert("Greska!");
+      break;
+}
+  </script>
+</body>
+</html> 
